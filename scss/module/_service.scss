@@ -1,5 +1,4 @@
 .service {
-  // @include padding_size_calc(2rem, 13.8rem, 20px, 138px);
   max-width: 1280px;
   padding: 80px 13.8rem 114px;
   margin: 0 auto;
@@ -19,8 +18,9 @@
 
   .sp-mt-50 {
     @include max-screen($break_sp) {
-      margin-top: 50px;
-    }
+      // margin-top: 50px;
+        margin-top: 15%;
+      }
   }
 
   &-col {
@@ -32,13 +32,10 @@
 
   &-img {
     z-index: 1;
-    // width: 66%;
-    // width: 58.5%;
+
     margin-left: -13.8rem;
     @include size_calc(margin-left, -2rem, -13.8rem, -20px, -138px);
-    // @include max-screen($break_sp) {
-    //   width: 100%;
-    // }
+
     width: 125%;
     @include max-screen($break_sp) {
       width: 100%;

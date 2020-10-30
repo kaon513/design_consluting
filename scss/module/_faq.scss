@@ -2,7 +2,8 @@
   padding: 210px 0 258px;
   @include padding-size_calc(2rem, 13.8rem, 20px, 138px);
   @include max-screen($break_sp) {
-    padding-bottom: 92.5px;
+    // padding-bottom: 92.5px;
+    padding-bottom: 24.6%;    
   }
 
   &-wrapper {

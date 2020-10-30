@@ -27,7 +27,7 @@
       width: 68%;
       height: 190px;
       top: -88px;
-      right: 0; // @include max-screen($break_sp) {
+      right: 0;
       @include max-screen(900px) {
         display: none;
       }
@@ -48,7 +48,8 @@
     flex-wrap: wrap;
     margin-top: 100px;
     @include max-screen($break_sp) {
-      margin-top: 34px;
+      // margin-top: 34px;
+      margin-top: 9.6%;
     }
     // position: relative;
   }

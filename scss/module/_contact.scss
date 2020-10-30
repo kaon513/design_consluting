@@ -2,8 +2,9 @@
   position: relative;
   padding: 173px 0 122px;
   @include max-screen($break_sp) {
-    padding-top: 59px;
-  }
+    // padding-top: 59px;
+    padding-top: 15.7%;
+      }
   @include padding-size_calc(2rem, 13.8rem, 20px, 138px);
   background-color: #2A84AC;
 
